@@ -1,0 +1,10 @@
+.generic-button{
+    background-color: transparent;
+    border: none;
+    padding: 5px 8px;
+}
+
+.btn-blu{
+    background-color: #0061ff;
+    color: white;
+}

@@ -1,0 +1,31 @@
+
+.header-top{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 15px 0;
+    z-index: 100;
+    height: 60px;
+ }
+
+ .general-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .general-nav ul li{
+    margin: 0 15px;
+  }
+ 
+  .general-nav ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+  }
+
+  .spaced-row{
+    justify-content: space-between;
+  }
