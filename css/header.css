@@ -18,6 +18,7 @@
  
   .general-nav ul li{
     margin: 0 15px;
+    vertical-align: center;
   }
  
   .general-nav ul li a{
@@ -29,3 +30,7 @@
   .spaced-row{
     justify-content: space-between;
   }
+
+.li-testo{
+    padding-top: 4px;
+}

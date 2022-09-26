@@ -1,10 +1,14 @@
 .generic-button{
     background-color: transparent;
     border: none;
-    padding: 5px 8px;
+    padding: 7px 10px;
 }
 
 .btn-blu{
     background-color: #0061ff;
     color: white;
+}
+
+.btn-16{
+    font-size: 16px;
 }
