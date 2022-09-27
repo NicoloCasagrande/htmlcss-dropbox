@@ -12,3 +12,29 @@
     display: flex;
     flex-direction: column;
 }
+
+.mgb-20{
+    margin-bottom: 20px;
+}
+
+.container-small{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.col-3{
+    width: 30%;
+}
+
+.spaced{
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.sixtypercent{
+    width: 60%;
+}
+
+.wrapped{
+    flex-wrap: wrap;
+}

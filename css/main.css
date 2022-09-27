@@ -14,11 +14,63 @@
     width: 70%;
 }
 
-.hero1 p{
-    margin: 35px 0;
+.hero1 p:first-child{
+    margin: 0 0 35px 0;
+}
+
+.hero1 p:nth-child(2){
+    margin: 35px 0 0 0;
 }
 
 .hero1 i{
-    padding-top: 70px;
+    padding-top: 80px;
     font-size: 40px;
+}
+
+.hero-coin{
+    position: relative;
+    bottom: -80px;
+}
+
+.piani-business{
+    padding: 100px 0 0 0;
+    font-size: 14px;
+}
+
+.piani-business h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.imput-plan > *{
+    margin-right: 25px;
+}
+
+.imput-plan{
+    margin-bottom: 35px;
+}
+
+.business-plan-head{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 5px;
+}
+
+.business-plan-main{
+    padding: 30px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.business-plan-main > *{
+    margin-top: 15px;
+}
+
+.contact{
+    margin-top: 150px;
+}
+
+#part-contact{
+    padding: 60px 0;
 }
