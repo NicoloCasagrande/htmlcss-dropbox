@@ -133,7 +133,7 @@
 
 .logo-azienda{
     width: 60%;
-    fill: white;
+    filter: invert(100%);
 }
 
 .green{
