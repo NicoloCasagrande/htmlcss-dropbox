@@ -17,3 +17,8 @@
     border: 1px solid black;
     margin-top: 15px;
 }
+
+.white{
+    background-color: white;
+    padding: 10px 50px;
+}
