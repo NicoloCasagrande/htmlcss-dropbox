@@ -18,5 +18,9 @@ h1{
 }
 
 .durata{
-    color: lightgray;
+    color: gray;
+}
+
+.business-plan-main h4{
+    font-size: 20px;
 }
