@@ -91,18 +91,27 @@
     width: 100vw;
 }
 
-.partner-col, .designit{
-    width: calc(100%/3);
+.partner-col{
+    width: 30vw;
+    height: 30vw;
+}
+
+.designit{
+    width: calc(100% - 60vw);
+    overflow-y: scroll;
 }
 
 .azienda{
     width: 50%;
-    height: 50%;
-    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-azienda{
-    width: 50%;
+    width: 60%;
+    fill: white;
 }
 
 .green{
@@ -147,31 +156,36 @@
     padding-bottom: 50px;
 }
 
+#faq{
+    padding-bottom: 140px;
+}
+
 summary {
-    padding: 20px 0;
+    padding: 30px 0;
     list-style: none;
     display: flex;
     justify-content: space-between;  
     transition: height 1s ease;
+    font-weight: bold;
+    font-size: 13px;
   }
   
-  summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none;
   }
   
-  summary:after{
+summary:after{
     content: "\002B";
   }
   
-  details[open] summary {
-      border-bottom: 1px solid #aaa;
+details[open] summary {
       margin-bottom: .5em;
   }
   
-  details[open] summary:after{
+details[open] summary:after{
     content: "\00D7";
   }
   
-  details[open] div{
+details[open] div{
     padding: .5em 1em;
   }

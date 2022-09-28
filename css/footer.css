@@ -11,10 +11,25 @@ footer{
 
 .f-col-small ul {
     list-style: none;
+    padding-bottom: 15px;
 }
 
 .f-col-small ul li a{
     text-decoration: none;
     color: inherit;
     font-size: 15px;
+  }
+
+  footer h5{
+    font-size: 17px;
+    padding: 0 0 20px 0;
+  }
+
+  #foot-cont{
+    padding-bottom: 100px;
+  }
+
+  #language{
+    padding-top: 30px;
+    color: lightgray;
   }
