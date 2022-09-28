@@ -61,18 +61,39 @@
     border-left: 1px solid lightgray;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
+    height: calc(100% - 31px);
 }
 
 .business-plan-main > *{
     margin-top: 15px;
 }
 
+.piani-business .col3{
+    height: 300px;
+}
+
 .contact{
     margin-top: 150px;
 }
 
+.designit img{ 
+    padding-bottom: 40px;
+}
+
+.designit p{ 
+    padding: 40px 0;
+}
+
 #operation{
     padding-top: 150px;
+}
+
+#operation h3{
+    padding-bottom: 15px;
+}
+
+#operation p{
+    padding-bottom: 20px;
 }
 
 #operation h2{
@@ -98,7 +119,8 @@
 
 .designit{
     width: calc(100% - 60vw);
-    overflow-y: scroll;
+    height: 30vw;
+    overflow-y: auto;
 }
 
 .azienda{

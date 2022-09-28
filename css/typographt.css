@@ -12,3 +12,11 @@ h1{
     font-size: 65px;
     font-weight: bold;
 }
+
+.prezzo{
+    font-weight: bold;
+}
+
+.durata{
+    color: lightgray;
+}

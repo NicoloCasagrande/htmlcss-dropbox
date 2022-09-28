@@ -38,3 +38,15 @@
 .wrapped{
     flex-wrap: wrap;
 }
+
+hr{
+    width: 30%;
+}
+
+#faq hr{
+    width: 100%;
+}
+
+.blu{
+    color: blue;
+}
