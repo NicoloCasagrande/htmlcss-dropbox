@@ -71,6 +71,14 @@
     margin-top: 150px;
 }
 
+#operation{
+    padding-top: 150px;
+}
+
+#operation h2{
+    padding-bottom: 50px;
+}
+
 #part-contact{
     padding: 60px 0;
 }
@@ -133,3 +141,37 @@
 #prova-id{
     padding: 130px 0;
 }
+
+#faq h2{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+summary {
+    padding: 20px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;  
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
