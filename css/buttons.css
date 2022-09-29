@@ -23,3 +23,20 @@
     padding: 10px 50px;
     margin-top: 20px;
 }
+
+.btn-blu:hover{
+    background-color: lightskyblue;
+    color: black;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.trasp-black:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.white:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
